@@ -16,6 +16,6 @@ body{
 }
 
 @theme {
-    --breakpoint-mobile: 510px;
+    --breakpoint-mb: 510px;
 }
 
