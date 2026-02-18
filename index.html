@@ -9,31 +9,155 @@
 </head>
 
 <body>
-    <header class="py-[24px]">
+    <header class="py-[24px] bg-[#F9F9F9] border-solid border-[1px]">
         <div class="container">
             <nav class="flex justify-between items-center">
                 <div>
                     <img src="./img/logo.png" alt="">
                 </div>
-                <div class="flex gap-[32px] ">
-                    <a class="text-[#69B99D]" href="#">Início</a>
+                <div class="flex gap-[32px] text-[#0F241D] max-mb:hidden">
+                    <a class="text-[#69B99D] font-bold" href="#">Início</a>
                     <a href="#">Sobre</a>
                     <a href="#">Serviços</a>
                     <a href="#">Depoimentos</a>
                     <a href="#">Contato</a>
                 </div>
+                <div class="mb:hidden ">
+                    <img src="./img/burger.png" alt="">
+                </div>
             </nav>
         </div>
     </header>
     <main>
-        <section class="py-[80px]">
-            <div class="container flex items-center justify-between max-mb">
-                <div class="max-w-[400px] flex flex-col gap-[15px] items-start">
+        <section class="py-[80px] bg-[#F9F9F9]">
+            <div class="container flex items-center justify-between max-mb max-mb:flex-col-reverse max-mb:gap-[32px]">
+                <div class="max-w-[400px] flex flex-col gap-[15px] items-start max-mb:text-center max-mb:items-center">
                     <h1 class="text-[36px] font-bold text-[#0F241D]">Saúde natural para os seus cabelos</h1>
                     <p>Um salão exclusivo em São Paulo, especializado em tratamentos naturais.</p>
-                    <button class="py-[15px] px-[32px] bg-[#69B99D] text-[#F9F9F9] font-medium rounded-[4px]">Agendar um  horário</button>
+                    <button class="py-[15px] px-[32px] bg-[#69B99D] text-[#F9F9F9] font-medium rounded-[4px]">Agendar um
+                        horário</button>
                 </div>
                 <img src="./img/hero.png" alt="">
+            </div>
+        </section>
+        <section class="flex items-center gap-[64px] max-mb:flex-col py-[100px]">
+            <img src="./img/sobre.png" alt="">
+            <div class="max-w-[600px] max-mb:px-[20px]">
+                <h2 class="text-[#0F241D] text-[36px] font-bold mb-[12px]">Sobre nós</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis arcu quis nisi luctus,
+                    id accumsan felis tristique. Proin quis bibendum diam. Sed consequat nisl laoreet eros ultricies
+                    pellentesque. Nullam in est porta, pellentesque massa vitae, vehicula risus.
+                    <br> <br>
+                    In placerat, felis vitae sodales dictum, lacus quam pretium mi, ut pretium urna turpis eu dui.
+                    Vestibulum id ullamcorper nibh. Donec luctus, nunc finibus elementum suscipit, tortor augue
+                    vulputate sapien, vitae feugiat enim augue sed.
+                    <br> <br>
+                    Quisque id aliquam elit. Suspendisse congue pharetra maximus. Duis rutrum velit a leo euismod
+                    dictum. Sed sodales est efficitur arcu tincidunt tincidunt. Curabitur fringilla, risus at feugiat
+                    feugiat, nisl nulla tincidunt tellus, elementum elementum lorem nisl eleifend dolor. Nullam eget dui
+                    <br>
+                    at sem ullamcorper luctus.
+                </p>
+            </div>
+        </section>
+        <section class="bg-[#F9F9F9] py-[100px]">
+            <div class="container">
+                <div class="flex flex-col max-w-[500px] m-auto text-center gap-[15px] max-mb:m-0 max-mb:text-left ">
+                    <h2 class="text-[#0F241D] text-[36px] font-bold">Serviços</h2>
+                    <p>Com mais de 10 anos no mercado, o <span class="text-[#69B99D]">Beautysalon</span> já conquistou
+                        clientes de inúmeros países com seus tratamentos exclusivos e totalmente naturais</p>
+                </div>
+                <div class="grid grid-cols-3 gap-[60px] grid-rows-[350px] max-mb:grid-cols-1 mt-[30px]">
+                    <div
+                        class="p-[60px] border-solid border-b-[4px] border-[#69B99D] flex flex-col items-center text-center gap-[24px] shadow-[0_0_10px_#00000014]">
+                        <img src="./img/service.png" alt="">
+                        <h3 class="text-[#0F241D] text-[24px] font-bold">Terapia capilar</h3>
+                        <p>Terapia completa para couro cabeludo e fios, protegendo todos os tipos de cabelos, inclusive
+                            os longos e finos.</p>
+                    </div>
+                    <div
+                        class="p-[60px] border-solid border-b-[4px] border-[#69B99D] flex flex-col items-center text-center gap-[24px] shadow-[0_0_10px_#00000014]">
+                        <img src="./img/service.png" alt="">
+                        <h3 class="text-[#0F241D] text-[24px] font-bold">Terapia capilar</h3>
+                        <p>Terapia completa para couro cabeludo e fios, protegendo todos os tipos de cabelos, inclusive
+                            os longos e finos.</p>
+                    </div>
+                    <div
+                        class="p-[60px] border-solid border-b-[4px] border-[#69B99D] flex flex-col items-center text-center gap-[24px] shadow-[0_0_10px_#00000014]">
+                        <img src="./img/service.png" alt="">
+                        <h3 class="text-[#0F241D] text-[24px] font-bold">Terapia capilar</h3>
+                        <p>Terapia completa para couro cabeludo e fios, protegendo todos os tipos de cabelos, inclusive
+                            os longos e finos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-[100px]">
+            <div class="container">
+                <h2 class="text-[#0F241D] text-[36px] font-bold mb:text-center">Depoimentos de quem já passou por aqui
+                </h2>
+                <div class="flex gap-[32px] mt-[30px]">
+                    <div class="p-[50px] shadow-[0_0_10px_#00000014] flex flex-col gap-[24px] ">
+                        <div class="flex items-start gap-[10px] text-[#0F241D]">
+                            <img src="./img/aspas.png" alt="">
+                            <p>
+                                Eu sou cliente do Beautysalon há 5 anos e não troco por nada! Certamente meu cabelo
+                                mudou muito depois que comecei a tratar somente com produtos naturais e veganos. São
+                                profissionais incríveis e qualificados.
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-[10px]">
+                            <img src="./img/ava.png" alt="">
+                            <p>Wanessa Souza</p>
+                        </div>
+                    </div>
+                    <div class="p-[50px] shadow-[0_0_10px_#00000014] flex flex-col gap-[24px] max-mb:hidden ">
+                        <div class="flex items-start gap-[10px] text-[#0F241D] ">
+                            <img src="./img/aspas.png" alt="">
+                            <p>
+                                Eu sou cliente do Beautysalon há 5 anos e não troco por nada! Certamente meu cabelo
+                                mudou muito depois que comecei a tratar somente com produtos naturais e veganos. São
+                                profissionais incríveis e qualificados.
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-[10px]">
+                            <img src="./img/ava.png" alt="">
+                            <p>Wanessa Souza</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center mt-[50px]">
+                    <img src="./img/Dots.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="py-[100px] bg-[#F9F9F9]">
+            <div class="container flex justify-between items-center max-mb:flex-col max-mb:items-start gap-[60px]">
+                <div class="max-w-[400px] flex flex-col gap-[12px] items-start">
+                    <h2 class="font-bold text-[#0F241D] text-[36px]">Entre em contato com a gente!</h2>
+                    <p>
+                        Entre em contato com a Beautysalon, queremos tirar suas dúvidas, ouvir suas críticas e sugestões.
+                    </p>
+                    <button class="flex items-center gap-[10px] text-[#F9F9F9] rounded-[4px] p-[15px] px-[32px] bg-[#69B99D]">
+                        <img src="./img/whatsup.png" alt="">
+                        <span>Entrar em contato</span>
+                    </button>
+                </div>
+                <div class=" flex flex-col gap-[12px] items-start">
+                    <div class="flex items-end gap-[12px] text-[18px] ">
+                        <img src="./img/phone1.png" alt="">
+                        <p>11 99845-6754</p>
+                    </div>
+                    <div class="flex items-end gap-[12px] text-[18px] ">
+                        <img src="./img/phone1.png" alt="">
+                        <p>R. Amauri Souza, 346</p>
+                    </div>
+                    <div class="flex items-end gap-[12px] text-[18px] ">
+                        <img src="./img/phone1.png" alt="">
+                        <p>contato@beautysalon.com</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
